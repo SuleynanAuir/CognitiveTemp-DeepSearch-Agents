@@ -30,6 +30,9 @@
 | 🚀 **Quick Start** | Get up and running in 5 minutes | [→ Guide](#-quick-start) |
 | 🏗️ **Architecture** | System design and agent responsibilities | [→ Details](docs/ARCHITECTURE.md) |
 | ⚙️ **Configuration** | Customize search styles and behaviors | [→ Guide](docs/CONFIGURATION.md) |
+| 📄 **Report Preview** | Partial report + guided questions + detail entry | [→ Open](#-report-preview--guided-questions) |
+| 🧭 **Report Index** | Section index images with click-to-open entries | [→ Open](#-report-index-quick-access) |
+| 📰 **Public Opinion Cases** | Real-world public sentiment case snapshots | [→ Open](#-real-public-opinion-cases) |
 | 💡 **Examples** | Real-world usage patterns | [→ Examples](docs/EXAMPLES.md) |
 | 🧪 **Testing** | Run and verify the system | [→ Tests](#-testing--verification) |
 | 📊 **Performance** | Benchmarks and metrics | [→ Benchmarks](#-performance-benchmarks) |
@@ -96,6 +99,114 @@
     <td colspan="2"><b>Search Configuration</b><br><img src="assets/result_threshold.png" width="100%"></td>
   </tr>
 </table>
+
+---
+
+## 📄 Report Preview & Guided Questions
+
+[![Report Preview](https://img.shields.io/badge/Preview-Partial%20Report-6f42c1.svg)](#-report-preview--guided-questions)
+[![Q&A Ready](https://img.shields.io/badge/Mode-Guided%20Q%26A-0ea5e9.svg)](#-report-preview--guided-questions)
+[![Detailed Report](https://img.shields.io/badge/Open-Full%20Report-22c55e.svg)](assets/report_20260305_205325.md)
+
+> **Report Excerpt (Partial)**
+>
+> "The first-stage performance of HLE shows a stable macro game with high objective control, but teamfight conversion is sensitive to draft tempo."
+>
+> "Public sentiment remains polarized: supporters emphasize discipline and consistency, while critics focus on late-game decisiveness."
+
+**Guided Questions**
+- What are the most repeated positive signals in current sentiment?
+- Which tactical weakness appears most frequently across critical sources?
+- If patch/meta changes, which conclusion is most likely to shift first?
+
+**Open Detailed Report**
+
+[![Open Full Report](https://img.shields.io/badge/🔘%20Open-Full%20Detailed%20Report-111827?style=for-the-badge)](assets/report_20260305_205325.md)
+
+### 📈 Report Stats Snapshot Record
+
+[![Stats Snapshot](https://img.shields.io/badge/Source-assets%2Fresult__stats.png-f59e0b.svg)](assets/result_stats.png)
+
+<table>
+  <tr>
+    <td width="55%"><b>Result Stats Panel</b><br><img src="assets/result_stats.png" width="100%"></td>
+    <td width="45%">
+      <b>Recorded Metrics</b>
+      <ul>
+        <li>⏱️ Execution Time: <b>45-120s</b></li>
+        <li>🔎 Source Count: <b>15-30</b></li>
+        <li>🧠 Uncertainty Convergence (&lt;0.2): <b>73%</b></li>
+        <li>🔁 Iteration Rounds: <b>1.5-2.5</b></li>
+        <li>📝 Report Length: <b>3000-8000 words</b></li>
+      </ul>
+      <a href="assets/result_stats.png">
+        <img src="https://img.shields.io/badge/🔘%20Open-Stats%20Image-2563eb?style=for-the-badge" alt="Open Stats Image"/>
+      </a>
+    </td>
+  </tr>
+</table>
+
+---
+
+## 📰 Real Public Opinion Cases
+
+[![Case Gallery](https://img.shields.io/badge/Gallery-Real%20Public%20Cases-ec4899.svg)](#-real-public-opinion-cases)
+[![Layout](https://img.shields.io/badge/Layout-Comparative%20View-8b5cf6.svg)](#-real-public-opinion-cases)
+
+<table>
+  <tr>
+    <td width="50%"><b>Case A · Public Sentiment Snapshot</b><br><img src="assets/public1.png" width="100%"></td>
+    <td width="50%"><b>Case B · Public Sentiment Snapshot</b><br><img src="assets/public2.png" width="100%"></td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <b>Comparison Focus</b>
+      <ul>
+        <li>📌 Narrative focus differences between two public events</li>
+        <li>📌 Sentiment polarity and turning points</li>
+        <li>📌 Source structure and discussion intensity</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+---
+
+## 🧭 Report Index Quick Access
+
+[![Index Entry](https://img.shields.io/badge/Index-Click%20to%20Open-14b8a6.svg)](#-report-index-quick-access)
+
+**Open Index Images by Section**
+
+<details>
+  <summary><b>🔘 Open Section Index 1</b></summary>
+  <br>
+  <a href="assets/sec1.png">
+    <img src="https://img.shields.io/badge/Open-sec1.png-0f766e?style=for-the-badge" alt="Open sec1"/>
+  </a>
+  <br><br>
+  <img src="assets/sec1.png" width="100%" alt="Section Index 1"/>
+</details>
+
+<details>
+  <summary><b>🔘 Open Section Index 2</b></summary>
+  <br>
+  <a href="assets/sec2.png">
+    <img src="https://img.shields.io/badge/Open-sec2.png-0f766e?style=for-the-badge" alt="Open sec2"/>
+  </a>
+  <br><br>
+  <img src="assets/sec2.png" width="100%" alt="Section Index 2"/>
+</details>
+
+<details>
+  <summary><b>🔘 Open Section Index 3</b></summary>
+  <br>
+  <a href="assets/sec3.png">
+    <img src="https://img.shields.io/badge/Open-sec3.png-0f766e?style=for-the-badge" alt="Open sec3"/>
+  </a>
+  <br><br>
+  <img src="assets/sec3.png" width="100%" alt="Section Index 3"/>
+</details>
 
 ---
 
